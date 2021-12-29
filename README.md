@@ -23,19 +23,21 @@ Here is some important notes to avoid errors.
 
 ![image](https://user-images.githubusercontent.com/84636881/147708004-d984fcd1-c75d-430f-b7cb-16c326977164.png)
 
-2. Just image name and format but with one condition.
+**2. Just image name and format but with one condition.**
 
 ```ruby
 cv2.imread(“image.png”, flags=))
 ```
 
 You can also declare image location just with its name and format BUT the project file (.py file) and image must be in the same folder!
+
 ![image](https://user-images.githubusercontent.com/84636881/147708025-2ddfe9fe-1015-4286-a32e-e4e13fa1e693.png)
 
 I suggest you to use this method which gives a clean coding and more organized file structure for you.
 
 Let’s continue with the second argument: Flags=
 Flags are like options. You choose how image should be read from the source. For this method flags are called as ImreadModes or imread flags. We have 13 different modes to set the type of flags. These methods can be found in the documentation of OpenCV at docs.opencv.org
+
 ![image](https://user-images.githubusercontent.com/84636881/147708042-a9057c5f-1422-49c9-a1fd-ac0d862be95e.png)
 
 In this story, I will just focus on IMREAD_UNCHANGED flag which is described as below in the documentation.

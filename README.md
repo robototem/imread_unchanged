@@ -1,4 +1,4 @@
-# imread_unchaged
+# imread_unchanged
 OpenCV: imread() Method “IMREAD_UNCHANGED” Flag Is Explained
 
 
